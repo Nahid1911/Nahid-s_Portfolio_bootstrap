@@ -1,32 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
 
 * {
-  border: 0;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
   font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 @media (min-width: 375px) and (max-width: 768px) {
-  .body-area {
+  body {
     background-image: url(media/header-illsutration-mobile.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-  }
-
-  .header-cover {
-    display: flex;
-    justify-content: end;
-    margin-right: 10%;
-  }
-
-  .nav-bar {
-    display: none;
   }
 
   .main-container {
@@ -385,49 +367,14 @@
 }
 
 @media (min-width: 768px) {
-  .body-area {
+  .body {
     background-image: url(media/Header-llustration-desktopHeader.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-  }
-
-  .header-cover {
-    display: none;
   }
 
   .big-back-ground {
     width: 100%;
-  }
-
-  .nav-bar-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    gap: 8px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-  }
-
-  .nav-bar-ul a {
-    text-decoration: none;
-  }
-
-  .nav-bar-ul li {
-    padding: 10px 12px;
-    width: 87px;
-    height: 40px;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 20px;
-    color: #344563;
-    text-align: center;
-    transition: 0.6s ease-in-out;
   }
 
   .main-container {
