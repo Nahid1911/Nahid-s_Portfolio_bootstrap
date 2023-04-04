@@ -11,16 +11,6 @@
     background-repeat: no-repeat;
   }
 
-  .main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    overflow: hidden;
-    padding: 10%;
-  }
-
   .btn-all {
     padding: 12px;
     gap: 10px;
@@ -37,31 +27,6 @@
     letter-spacing: 0.03em;
     color: #fff;
     margin-top: 20px;
-  }
-
-  .main-text {
-    margin: 0% 10%;
-    width: 100%;
-    padding: 10%;
-  }
-
-  .main-text-blue {
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    line-height: 40px;
-    color: #172b4d;
-    text-align: center;
-    letter-spacing: 0;
-  }
-
-  .main-text-green {
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    line-height: 40px;
-    color: #36b37e;
-    text-align: center;
   }
 
   .intro-text {
@@ -94,7 +59,7 @@
     border-radius: 8px;
   }
 
-  .main-text .social-media img {
+  .intro .social-media img {
     margin-right: 20px;
   }
 
@@ -377,34 +342,6 @@
     width: 100%;
   }
 
-  .main-container {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    margin: 0% 10%;
-  }
-
-  .main-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px 0 200px 0;
-    gap: 24px;
-    margin: 5% 10%;
-  }
-
-  .main-text-blue {
-    font-family: "Inter", Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
-    color: #172b4d;
-    text-align: center;
-    letter-spacing: 0.37px;
-    transition: 5s ease-in-out;
-  }
-
   .main-text-blue:hover {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-weight: 800;
@@ -414,17 +351,6 @@
     text-align: center;
     letter-spacing: 0.37px;
     transition: 1s ease-in-out;
-  }
-
-  .main-text-green {
-    font-family: "Inter", Arial, Helvetica, sans-serif;
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 60px;
-    color: #36b37e;
-    text-align: center;
-    letter-spacing: 0.37px;
-    margin-top: -30px;
   }
 
   .intro-text {
