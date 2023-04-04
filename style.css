@@ -342,16 +342,7 @@
     width: 100%;
   }
 
-  .main-text-blue:hover {
-    font-family: "Inter", Arial, Helvetica, sans-serif;
-    font-weight: 800;
-    font-size: 60px;
-    line-height: 60px;
-    color: #d30e0e;
-    text-align: center;
-    letter-spacing: 0.37px;
-    transition: 1s ease-in-out;
-  }
+
 
   .intro-text {
     font-size: 20px;
@@ -360,26 +351,6 @@
     line-height: 32px;
     text-align: center;
     color: #172b4d;
-  }
-
-  .social-media {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    list-style: none;
-    width: 200px;
-    height: 40px;
-  }
-
-  .social-media li {
-    padding: 8px;
-    animation: socialmedia 1s;
-  }
-
-  .work-container {
-    width: 100%;
-    margin: 25% 0 0 0;
   }
 
   .work-history {
