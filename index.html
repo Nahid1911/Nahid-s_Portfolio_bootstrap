@@ -77,8 +77,8 @@
                   <li class="badge bg-success">JavaScript</li>
                   <li class="badge bg-success">HTML</li>
                 </ul>
-                <div class="btn-container">
-                  <button type="submit" class="btn-all">See project</button>
+                <div class="btn-container d-flex justify-content-center">
+                  <button type="submit" class="btn btn-success">See project</button>
                 </div>
               </div>
             </div>
@@ -94,8 +94,8 @@
                   <li class="badge bg-success">JavaScript</li>
                   <li class="badge bg-success">HTML</li>
                 </ul>
-                <div class="btn-container">
-                  <button type="submit" class="btn-all">See project</button>
+                <div class="btn-container d-flex justify-content-center">
+                  <button type="submit" class="btn btn-success">See project</button>
                 </div>
               </div>
             </div>
@@ -111,8 +111,8 @@
                   <li class="badge bg-success">JavaScript</li>
                   <li class="badge bg-success">HTML</li>
                 </ul>
-                <div class="btn-container">
-                  <button type="submit" class="btn-all">See project</button>
+                <div class="btn-container d-flex justify-content-center">
+                  <button type="submit" class="btn btn-success">See project</button>
                 </div>
               </div>
             </div>
@@ -128,8 +128,8 @@
                   <li class="badge bg-success">JavaScript</li>
                   <li class="badge bg-success">HTML</li>
                 </ul>
-                <div class="btn-container">
-                  <button type="submit" class="btn-all">See project</button>
+                <div class="btn-container d-flex justify-content-center">
+                  <button type="submit" class="btn btn-success">See project</button>
                 </div>
               </div>
             </div>
@@ -145,8 +145,8 @@
                   <li class="badge bg-success">JavaScript</li>
                   <li class="badge bg-success">HTML</li>
                 </ul>
-                <div class="btn-container">
-                  <button type="submit" class="btn-all">See project</button>
+                <div class="btn-container d-flex justify-content-center">
+                  <button type="submit" class="btn btn-success">See project</button>
                 </div>
               </div>
             </div>
@@ -162,8 +162,8 @@
                   <li class="badge bg-success">JavaScript</li>
                   <li class="badge bg-success">HTML</li>
                 </ul>
-                <div class="btn-container">
-                  <button type="submit" class="btn-all">See project</button>
+                <div class="btn-container d-flex justify-content-center">
+                  <button type="submit" class="btn btn-success">See project</button>
                 </div>
               </div>
             </div>
@@ -180,7 +180,7 @@
             </p>
           </div>
           <div class="">
-            <button type="submit" class="btn-all">Get my resume</button>
+            <button type="submit" class="btn btn-success">Get my resume</button>
           </div>
         </div>
         <div class="container d-flex flex-row m-5 gap-3">
@@ -195,7 +195,7 @@
               </ul>
           </div>
           <div class="container d-flex flex-column align-items-center bg-light pb-5">
-            <img src="media/framework_Icons.svg">
+            <img alt= "" src="media/framework_Icons.svg">
             <h2>Frameworks</h2>
             <div class="fwor-list">
               <ul class="d-flex flex-wrap list-unstyled gap-2 justify-content-center">
@@ -208,7 +208,7 @@
             </div>
           </div>
           <div class="container d-flex flex-column align-items-center bg-light pb-5">
-            <img src="media/skills_Icons.svg">
+            <img alt="" src="media/skills_Icons.svg">
             <h2>Skills</h2>
             <div class="skills-list">
               <ul class="d-flex flex-wrap list-unstyled gap-2 justify-content-center">
@@ -222,29 +222,36 @@
           </div>
         </div>
       </section>
-      <section class="contact-info">
-        <div class="paragraph">
-          <p>I'm always interested in hearing about new projects, so if you'd l
+      <section class="row row-cols-2">
+        <div class="col d-flex align-items-center">
+          <p class="fs-2">I'm always interested in hearing about new projects, so if you'd l
              ike to chat please get in touch.
           </p>
         </div>
-        <div class="input-elements">
+        <div class="col">
           <form action="https://formspree.io/f/meqwrjvl" method="post">
-            <input type="text" class="full-name" id="fname" name="fname" placeholder="Full Name" maxlength="30" required><br>
-            <input type="email" id="email" name="_replyto" placeholder="Enter email" required><br>
-            <textarea name="message" id="Opinion" maxlength="500" placeholder="Write me something..." required></textarea>
-            <div class="btn-submitContainer">
-              <button class="btn-all" type="submit" id="submit" name="submit" value="submit">Get In Touch</button>
+            <div class="mb-1 d-flex flex-column">
+              <label for="fname" class="form-label small">Full Name</label>
+              <input type="text" id="fname" class="p-2 rounded-2" name="fname" placeholder="Full Name" maxlength="30" required><br>
+            </div>
+            <div class="mb-1 d-flex flex-column">
+              <label for="email" class="form-label small">E-mail</label>
+              <input type="email" id="email" name="_replyto" placeholder="Enter email" class="p-2 rounded-2" required><br>
+            </div>
+            <div class="mb-1 d-flex flex-column">
+              <label for="Opinion" class="form-label small">Message</label>
+              <textarea name="message" id="Opinion" maxlength="500" class="p-2 rounded-2" placeholder="Write me something..." required></textarea>
+            </div>
+            <div class="mb-1">
+              <button class="btn btn-success" type="submit" id="submit" name="submit" value="submit">Get In Touch</button>
             </div>
           </form>
         </div>
       </section>
-      <footer class="foot-design">
-        <div class="email">
+      <footer class="container-fluid d-flex flex-column align-items-center">
           <a href="#"><p>nahid.raihan@gmail.com</p></a>
-        </div>
         <div>
-            <ul class="socialmedia2">
+            <ul class="list-unstyled">
                 <li>
                     <a href="https://github.com/Nahid1911"><img src="media/github.svg" alt="social media github"></a>
                 </li>
@@ -260,7 +267,6 @@
           <img src="media/Light.svg" alt="" class="src">
         </div>
       </footer>
-
     </main>
  </body>
 </html>
