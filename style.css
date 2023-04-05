@@ -13,7 +13,7 @@
 }
 
 @media (min-width: 768px) {
-  .body {
+  body {
     background-image: url(media/Header-llustration-desktopHeader.svg);
     background-size: contain;
     background-repeat: no-repeat;
